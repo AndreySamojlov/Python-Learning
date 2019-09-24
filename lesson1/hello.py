@@ -1,6 +1,6 @@
 from telegram.ext import Updater, CommandHandler
-PROXY = {'proxy_url': 'socks5://t1.learn.python.ru:1080',
-    'urllib3_proxy_kwargs': {'username': 'learn', 'password': 'python'}}
+PROXY = {'proxy_url': 'socks5://165.22.220.1:1080',
+    'urllib3_proxy_kwargs': {'username': 'learn_python2', 'password': 'FGN7MGgdTznt'}}
 def greet_user(bot, update):
     print('Вызван /start')
 def main():
