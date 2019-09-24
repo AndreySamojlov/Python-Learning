@@ -21,3 +21,4 @@ print("Спроси что-нибудь")
 while answer != "Счастливо!":
     answer = ask_user(False, input().lower())
     print(answer)
+# test
